@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3361233825760763867
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8231666652532443644}
+  - component: {fileID: 7993771250954791699}
+  m_Layer: 0
+  m_Name: Map
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8231666652532443644
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361233825760763867}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.075669, y: 6.9153624, z: -0.15137286}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7993771250954791699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3361233825760763867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04d70df60308ed0468ee6a32a98a72c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rooms: 
+  treasureRooms: 
+  eventRooms: 
+  playerRooms: 
+  enemyTypes:
+  - {fileID: 6821255550903777337, guid: 1717c7a515d024ec7b91df3d6de62007, type: 3}
+  monsterRoom:
+  - {fileID: 6778486707940754727, guid: 9b189ed591d1e7c48966d1a5dccfdec8, type: 3}
+  bossTypes: []
+  bossRoom:
+  - {fileID: 8861035818864326531, guid: 861133396cc0d404da12e7fda75e5ee5, type: 3}
+  loots: []
+  treasureRoom:
+  - {fileID: 359254402839684478, guid: 6461d3e589b3b904f83142e9b77b8339, type: 3}
+  eventRoom:
+  - {fileID: 4601842525380414125, guid: d78c15d3217ce8240bc7bc87701272c6, type: 3}
+  playerRoom:
+  - {fileID: 5420637890702832784, guid: feaf26c0a4f77994eb6081b7be552009, type: 3}
